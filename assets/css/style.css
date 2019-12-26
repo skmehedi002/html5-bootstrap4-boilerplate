@@ -1,0 +1,225 @@
+/*
+* Template Name :  Responsive Bootstrap Landing Template
+* Version : 1.0.0
+* Created by : Mehedi002
+* File : Main css file
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-size: 14px;
+    line-height: 17px;
+    word-wrap: break-word;
+    color: #666;
+    background: #fff;
+    overflow-x: hidden;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #888;
+    line-height: 24px;
+    font-weight: 400;
+    left: -1px;
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*======================
+        Helper
+========================*/
+
+.section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    position: relative;
+    background-color: #fff;
+}
+
+.btn {
+    padding: 14px 36px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.btn-rounded {
+    border-radius: 30px !important;
+}
+
+.btn-custom {
+    font-size: 15px;
+    transition: all 0.4s;
+    color: #fff !important;
+    cursor: pointer;
+}
+
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active,
+.btn-custom.focus,
+.btn-custom:active,
+.btn-custom:focus,
+.btn-custom:hover,
+.open > .dropdown-toggle.btn-custom {
+    box-shadow: none !important;
+}
+
+.btn-outline {
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+    font-weight: 500;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active,
+.btn-outline.focus,
+.btn-outline:active,
+.btn-outline:focus,
+.btn-outline:hover,
+.open > .dropdown-toggle.btn-outline {
+    transition: all 0.5s;
+    outline: none;
+    text-decoration: none;
+}
+
+.vertical-content {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+}
+
+.bg-overlay {
+    background-color: rgba(11, 15, 41, 0.65);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+}
+
+/*====================
+      Footer
+======================*/
+
+.footer {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer .footer-list li a {
+    color: rgba(255, 255, 255, 0.5);
+    transition: all 0.5s;
+    line-height: 30px;
+}
+
+.footer .footer-list li a:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer .footer-list li {
+    margin-bottom: 5px;
+}
+
+.footer-social li a i {
+    font-size: 20px;
+    color: #fff;
+    border-radius: 50%;
+    border: 2px solid;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 36px;
+    margin-right: 3px;
+    display: inline-block;
+}
+
+.footer-social li a i.facebook {
+    background-color: #5472d2;
+    border-color: #5472d2;
+}
+
+.footer-social li a i.instagram {
+    background-color: #e43667;
+    border-color: #e43667;
+}
+
+.footer-social li a i.twitter {
+    background-color: #1DA1F2;
+    border-color: #1DA1F2;
+}
+
+.footer-social li a i.linkedin {
+    background-color: #0173B2;
+    border-color: #0173B2;
+}
+
+.footer-desc {
+    line-height: 26px;
+}
+
+.footer-border {
+    height: 1px;
+    background-color: #4a4a4a;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.subcribe-form {
+    height: 48px;
+    border: none;
+    border-radius: 0px;
+}
+
+.subcribe-btn {
+    background-color: #ffd800;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 16px;
+    border: 0px solid #ffd800;
+    color: #2d2d4c;
+    padding: 15px 24px 15px 24px;
+    text-transform: normal;
+    white-space: normal;
+    outline: none !important;
+}
+
+.footer-terms a {
+    color: rgba(255, 255, 255, 0.5);
+}

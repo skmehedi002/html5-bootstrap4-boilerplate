@@ -1,0 +1,31 @@
+/* Theme Name: Responsive Landing Page Template
+   Author: Mehedi002
+   Version: 1.0.0
+   File Description: Resposive CSS file of the template
+*/
+
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+    
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ 
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
